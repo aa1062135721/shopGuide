@@ -1,0 +1,21 @@
+{
+  "name": "shop_guide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "crypto-js": "^4.0.0",
+    "dayjs": "^1.10.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://47.113.81.33:8099/root/shop_guide.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

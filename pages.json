@@ -1,0 +1,128 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				// "navigationBarTitleText": "丝路花街",
+				"navigationStyle": "custom",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}
+	],
+	"subPackages": [{
+		"root": "pageA",
+		"pages": [{
+			"path": "search/index",
+			"style": {
+				"navigationBarTitleText": "丝路花街",
+				// "navigationStyle": "custom",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "shop/index",
+			"style": {
+				"navigationBarTitleText": "丝路花街",
+				// "navigationStyle": "custom",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "shop/detail",
+			"style": {
+				"navigationBarTitleText": "丝路花街",
+				// "navigationStyle": "custom",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "guide/index",
+			"style": {
+				"navigationBarTitleText": "丝路花街",
+				// "navigationStyle": "custom",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "service/index",
+			"style": {
+				"navigationBarTitleText": "丝路花街",
+				// "navigationStyle": "custom",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}
+		]
+	},
+	{
+		"root": "pageB",
+		"pages": [		{
+			"path": "mine/index",
+			"style": {
+				"navigationBarTitleText": "丝路花街",
+				"navigationStyle": "custom",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "mine/login", // 用户登录
+			"style": {
+				"navigationBarTitleText": "丝路花街",
+				"navigationStyle": "custom",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "mine/aboutUs",
+			"style": {
+				"navigationBarTitleText": "丝路花街",
+				// "navigationStyle": "custom",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "mine/Feedback",
+			"style": {
+				"navigationBarTitleText": "丝路花街",
+				// "navigationStyle": "custom",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "mine/myFeedback",
+			"style": {
+				"navigationBarTitleText": "丝路花街",
+				// "navigationStyle": "custom",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "mine/feedbackDetail",
+			"style": {
+				"navigationBarTitleText": "丝路花街",
+				// "navigationStyle": "custom",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		// "navigationBarTitleText": "丝路花街",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+	// "tabBar": {
+	//     "color": "#909399",
+	//     "selectedColor": "#303133",
+	//     "borderStyle": "black",
+	//     "backgroundColor": "#ffffff",
+	//     "list": [{
+	//         "pagePath": "pages/index/index",
+	//         "iconPath": "static/index.png",
+	//         "selectedIconPath": "static/index-selected.png",
+	//         "text": "首页"
+	//     }]
+	// }
+}
